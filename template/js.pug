@@ -1,28 +1,13 @@
 div
   | const app = getApp()
   |
-  | Page({
+  | Component({
+  |   properties: {},
+  |
   |   data: {},
   |
   |   onLoad() {},
   |
-  |   onSHow() {},
+  |   methods() {},
   |
-  |
-  - for (var x = 0; x < pageInit.length; x++)
-    if pageInit[x] == 'onShareAppMessage'
-      |   onShareAppMessage() {
-      |     return {
-      |       title: '#{shareTitle}',
-      |       path: '#{sharePath}',
-      |       imageUrl: '',
-      |     }
-      |   },
-      |
-      |
-    else 
-      |   #{pageInit[x]}() {},
-      |
-      |
-  | })
   |
