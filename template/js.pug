@@ -11,6 +11,7 @@ div
   |
   - for (var x = 0; x < pageInit.length; x++)
     if pageInit[x] == 'onShareAppMessage'
+      |   // 分享，禁止分享需删除该方法
       |   onShareAppMessage() {
       |     return {
       |       title: '#{shareTitle}',
